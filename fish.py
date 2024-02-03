@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 
-model = pickle.load(open('ikan.sav', 'rb'))
+model = pickle.load(open('prediksi.sav', 'rb'))
 
 st.title('Fish Weight Prediction')
 
